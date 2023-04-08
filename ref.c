@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include "dummy.h"
-#include "nd_dummy.h"
+
 
 #include <stdlib.h>
 #include <time.h>
@@ -12,6 +11,11 @@ struct book {
 	char author[30];
 	int publish_date;
 };
+
+
+
+
+
 
 void fn1(struct book* b) {
 	// działamy na oryginale, ponieważ przy wywołaniu tworzona jest tylko zmienna
